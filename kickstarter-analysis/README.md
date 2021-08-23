@@ -32,17 +32,17 @@ The `Outcomes Based on Goals` Excel sheet has a lot of formulas for counting the
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 >The best time to initiate a theater campaign is from May through September which reflect the highest number of success outcomes for the year. The failure outcomes are flat during the same period between May and September.
-
+>
 >The worst time period for a theater campaign appears to be in the final quarter of the year between October and December.
 
 - What can you conclude about the Outcomes based on Goals?
 >It is recommended that the funding goal should not exceed $15,000 for plays. For goal amounts
 between $15,000 and $35,000 dollars, the success rate is between 20% and 50%, while the percentage of success ranges from 54% up to 76% for goal amounts less than $15,000 dollars.
-
+>
 >There is a high success rate of 67% for goal amounts ranging from $35,000 dollars to $45,000 dollars, however there were only nine plays that met this criteria which represents a very small portion of the overall number of plays.
 
 - What are some limitations of this dataset?
 >The dataset lacks information on the type of campaign spending needed for a successful outcome such as infrastructure, marketing, and operational spending. The dataset does not include whether the campaigns occur in cities or in rural areas which could help explain the level of goal amounts.
 
 - What are some other possible tables and/or graphs that we could create?
->A box whisker plot could have been created to help identify outliers in the dataset and to determine if the data was skewed. For the `Theater Outcomes by Launch Date` Excel sheet, a second pivot table showing percentage of outcomes would have been helpful in displaying success, fail, and cancel outcomes as percentagee of the grand totals by month.
+>A box whisker plot could have been created to help identify outliers in the dataset and to determine if the data was skewed. For the `Theater Outcomes by Launch Date` Excel sheet, a second pivot table showing percentage of outcomes would have been helpful in displaying success, fail, and cancel outcomes as percentages of the grand totals by month.
