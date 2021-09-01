@@ -39,6 +39,7 @@ target/
 
 # pyenv
 .python-version
+.idea
 
 # dotenv
 .env
