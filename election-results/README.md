@@ -4,9 +4,9 @@
 The Board of Elections employee has given you the following task to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of votes cast
-2. Get a complete list of candidates who received votes
-3. Calculate the total number of votes each candidate received
-4. Calculate the percentage of votes each candidate won
+2. Calculate the total number of votes and percentage each county received
+3. List the county with the largest voter turnout
+4. Calculate the total number of votes and percentage each candidate received
 5. Determine the winner of the election based on popular vote
 
 ## Resources 
@@ -17,10 +17,23 @@ The Board of Elections employee has given you the following task to complete the
 
 The analysis of the election shows that:
 - There were 369,711 votes cast in the election
+
+- The counties were:
+  - Jefferson
+  - Denver
+  - Arapahoe
+  
 - The candidates were:
     - Charles Casper Stockham
     - Diana DeGette
     - Raymon Anthony Doane
+
+- The county turnout was:
+  - Jefferson received 10.5% of the votes and 38,855 votes
+  - Denver received 82.8% of the votes and 306,055 votes
+  - Arapahoe received 6.7% of the votes and 24,801 votes
+
+- The largest county turnout was Denver
 
 - The candidate results were:
     - Charles Casper Stockham received 23.0% of the vote and 85,213 votes
@@ -30,8 +43,5 @@ The analysis of the election shows that:
 - The winner of the election was:
     - Diana DeGette who received 73.8% of the vote and 272,892 votes
     
-## Challenge Overview
-
-
-## Challenge Summary
+## Election Audit Summary
 
