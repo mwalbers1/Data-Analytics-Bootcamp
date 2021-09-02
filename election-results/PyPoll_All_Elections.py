@@ -127,7 +127,7 @@ with open(file_to_save, "w") as txt_file:
     winning_county = Counter(election_results['counties']).most_common(1)
     winning_county_name = winning_county[0][0]
     winning_county_count = winning_county[0][1]
-    winning_county_percentage = c_vote_pct
+    winning_county_percentage = float(winning_county_count) / float(total_votes) * 100
 
     # 7: Print the county with the largest turnout to the terminal.
     winning_county_summary = (
@@ -155,7 +155,7 @@ with open(file_to_save, "w") as txt_file:
     winning_candidate = Counter(election_results['candidates']).most_common(1)
     winning_candidate_name = winning_candidate[0][0]
     winning_candidate_count = winning_candidate[0][1]
-    winning_candidate_pct = vote_percentage
+    winning_candidate_pct = float(winning_candidate_count) / float(total_votes) * 100
 
     # Print the winning candidate (to terminal)
     winning_candidate_summary = (
