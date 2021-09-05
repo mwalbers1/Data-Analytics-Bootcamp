@@ -9,7 +9,7 @@ The Board of Elections employee has given you the following task to complete the
 4. Calculate the total number of votes and percentage each candidate received
 5. Determine the winner of the election based on popular vote
 
-## Resources 
+## Resources
 - Data Source: election_results.csv
 - Software: Python 3.8, JetBrains PyCharm 2021.2.1
 
@@ -22,7 +22,7 @@ The analysis of the election shows that:
   - Jefferson
   - Denver
   - Arapahoe
-  
+
 - The candidates were:
     - Charles Casper Stockham
     - Diana DeGette
@@ -39,16 +39,16 @@ The analysis of the election shows that:
     - Charles Casper Stockham received 23.0% of the vote and 85,213 votes
     - Diana DeGette received 73.8% of the vote and 272,892 votes
     - Raymon Anthony Doane received 3.1% of the vote and 11,606 votes
-    
+
 - The winner of the election was:
     - Diana DeGette who received 73.8% of the vote and 272,892 votes
-    
+
 ## Election Audit Summary
 
-- This script can be used for any election by modifying the script to first handle any source CSV file that is placed into a folder. 
+- This script can be used for any election by modifying the script to first handle any source CSV file that is placed into a folder.
 
-- The election data for candidates and counties can be combined into a single Python dictionary to allow the script to be easier to maintain. 
-- The election candidates and counties will be loaded directly into the `election_results` dictionary, instead of loading list and then populating the dictionary from the list. This will allow the script run more efficiently. 
+- The election data for candidates and counties can be combined into a single Python dictionary to allow the script to be easier to maintain.
+- The election candidates and counties will be loaded directly into the `election_results` dictionary, instead of loading list and then populating the dictionary from the list. This will allow the script run more efficiently.
 
 - Use the csv.DictReader class when loading the `election_results` dictionary from the source csv file.
 
@@ -129,4 +129,5 @@ with open(file_to_load) as election_data:
         county_name = row["County"]
 ```
 <br/>
-The modified script is called `PyPoll_All_Elections.py`
+
+The modified script is called **PyPoll_All_Elections.py**
