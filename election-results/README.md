@@ -45,14 +45,17 @@ The analysis of the election shows that:
 
 ## Election Audit Summary
 
-- This script can be used for any election by modifying the script to first handle any source CSV file that is placed into a folder.
+This script can be used for any election by making the following modifications: 
 
-- The election data for candidates and counties can be combined into a single Python dictionary to allow the script to be easier to maintain.
-- The election candidates and counties will be loaded directly into the `election_results` dictionary, instead of loading list and then populating the dictionary from the list. This will allow the script run more efficiently.
+- Update the Python script to handle any source CSV file that is placed into a folder.
+
+- Combine the election data for candidates and counties into a single Python dictionary to allow the script to be easier to maintain.
+
+- Load election candidates and counties directly into the `election_results` dictionary, instead of first loading a list and then populating the dictionary from the list. This will allow the script run more efficiently.
 
 - Use the csv.DictReader class when loading the `election_results` dictionary from the source csv file.
 
-- Each change is described in detail below.
+Each change is described in detail below.
 
 ### Election source file
 
