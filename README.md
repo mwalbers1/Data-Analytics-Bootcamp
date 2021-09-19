@@ -15,7 +15,7 @@
 <ins>School District Analysis</ins>&nbsp;&nbsp; :white_check_mark:<br/>
 [School District Analysis](school-district-analysis) - Use Python Jupyter Notebooks to analyze school district data for making strategic decisions regarding school budgets and priorities based on student scores on standardized tests and existing school funding.
 <br/><br/>
-<ins>Ride Sharing Analysis</ins>&nbsp;&nbsp; :hourglass_flowing_sand:<br/>
-[Ride Share Analysis](pyber-analysis) - Analysis of "Uber like" ride sharing company with Pandas and Matplotlib data visualization library.
+<ins>Ride Sharing Analysis</ins>&nbsp;&nbsp; :white_check_mark:<br/>
+[Ride Share Analysis](pyber-analysis) - Analysis of "Uber" like ride sharing company with Pandas and Matplotlib data visualization library.
 <br/><br/>
 
