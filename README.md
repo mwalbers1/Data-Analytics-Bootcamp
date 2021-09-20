@@ -18,4 +18,8 @@
 <ins>Ride Sharing Analysis</ins>&nbsp;&nbsp; :white_check_mark:<br/>
 [Ride Share Analysis](pyber-analysis) - Analysis of "Uber" like ride sharing company with Pandas and Matplotlib data visualization library.
 <br/><br/>
+<ins>World Weather Analysis</ins>&nbsp;&nbsp; :hourglass_flowing_sand:<br/>
+[World Weather Analysis](world-weather-analysis) - Analyze weather data for a hypothetical travel company.
+<br/>
+
 
