@@ -49,3 +49,8 @@ target/
 venv/
 ENV/
 
+# config
+config.py
+
+# practice files
+gmaps_practice.ipynb
