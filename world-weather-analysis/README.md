@@ -1,43 +1,30 @@
-# World Weather Analysis
+# Changes for PlanMyTrip app
+This project is for the **Module 6 Challenge** on WeatherPy and Python APIs.  The Module 6 World Weather Analysis project is here: [Module-6 Lesson](Module-6%20Lesson.md)
 
 ## Overview
+This project is a case study for a fictitious PlanMyTrip app which caters to travelers planning their vacations.  There are three deliverables:
 
-### Task
-Collect and analyze weather data across cities worldwide
+1. Retrieve Weather Data
+2. Create Customer Travel Destinations Map
+3. Create a Travel Itinerary Map
 
-### Purpose
-PlanMyTrip will use the data to recommend ideal hotels based on clients' weather preferences.
+### Deliverable 1
+- Collect weather data based on the nearest cities for a set of 2,000 random latitudes and longitudes
 
-### Method 
-Create a Pandas DataFrame with 500 or more of the world's unique cities and their weather data in real time. This process will entail collecting, analyzing, and visualizing the data.
-
-## Analysis
-
-### Collect the Data
-
-- Use the NumPy module to generate more than 1,500 random latitudes and longitudes.
-- Use the [citipy](https://pypi.org/project/citipy/) module to list the nearest city to the latitudes and longitudes.
-- Use the [OpenWeather](https://openweathermap.org/api) API to request the current weather data from each unique city in your list.
-- Parse the JSON data from the API request.
-- Collect the following data from the JSON file and add it to a DataFrame:
-    - City, country, and date
+- Retrieve the following information from the <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a> API
     - Latitude and longitude
     - Maximum temperature
-    - Humidity
-    - Cloudiness
+    - Percent humidity
+    - Percent cloudiness
     - Wind speed
+    - Weather description (for example, clouds, fog, light rain, clear sky)
 
-### Exploratory Analysis with Visualization
+### Deliverable 2
+- Create list of travel destinations and nearby hotels based on customer's weather preferences
 
-- Create scatter plots of weather data 
-- Determine the correlations
-- Create series of heatmaps using Google Maps and Places API for:
-    - Latitude and temperature
-    - Latitude and humidity
-    - Latitude and cloudiness
-    - Latitude and wind speed
+- Show destinations on a marker layer map with pop-up markers
 
-### Visual Travel Data
+### Deliverable 3
+- Create travel itinerary map based on recommended travel destinations list created in the second deliverable
 
-- Create a heatmap with pop-up markers that can display information on specific cities based on a customer's travel preferences.
 
