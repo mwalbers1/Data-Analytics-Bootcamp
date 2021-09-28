@@ -1,6 +1,6 @@
 City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Description
-Boston,US,42.3584,-71.0598,73.58,59,57,7.0,broken clouds
-New York,US,40.7143,-74.006,79.95,47,1,11.5,clear sky
-Bethesda,US,38.9807,-77.1003,80.22,47,1,8.01,clear sky
-Chicago,US,41.85,-87.65,82.99,47,4,4.0,clear sky
-Tampa,US,27.9475,-82.4584,88.95,56,75,1.01,broken clouds
+Boston,US,42.3584,-71.0598,71.55,69,40,8.99,scattered clouds
+New York,US,40.7143,-74.006,75.76,53,40,11.5,scattered clouds
+Bethesda,US,38.9807,-77.1003,74.17,65,40,1.01,scattered clouds
+Chicago,US,41.85,-87.65,74.03,79,40,5.99,scattered clouds
+Tampa,US,27.9475,-82.4584,84.22,65,75,0.0,broken clouds
