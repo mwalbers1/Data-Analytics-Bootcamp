@@ -21,7 +21,7 @@
 <ins>World Weather Analysis</ins>&nbsp;&nbsp; :white_check_mark:<br/>
 [World Weather Analysis](world-weather-analysis) - Analyze weather data for a hypothetical travel company.
 <br/><br/>
-<ins>Employee Database and SQL Analysis</ins>&nbsp;&nbsp; :hourglass_flowing_sand:<br/>
+<ins>Employee Database and SQL Analysis</ins>&nbsp;&nbsp; :white_check_mark:<br/>
 [Employee Database and SQL Analysis](pewlett-hackard-analysis/README.md) - Use SQL to analyze employees eligible for select programs in a fictitious company, Pewlett Hackard.<br/><br/>
 
 
