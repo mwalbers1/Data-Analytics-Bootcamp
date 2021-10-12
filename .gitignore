@@ -58,5 +58,5 @@ gmaps_practice.ipynb
 # exclude large data files
 movies_metadata.csv
 ratings.csv
-wikipedia-movies.json
+
 
