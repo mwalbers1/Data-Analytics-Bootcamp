@@ -24,7 +24,13 @@
 <ins>Employee Database and SQL Analysis</ins>&nbsp;&nbsp; :white_check_mark:<br/>
 [Employee Database and SQL Analysis](pewlett-hackard-analysis/README.md) - Use SQL to analyze employees eligible for select programs in a fictitious company, Pewlett Hackard.<br/><br/>
 <ins>ETL Process</ins>&nbsp;&nbsp; :white_check_mark:<br/>
-[Movies ETL Process](movies-etl) - Build automated data pipeline for movies data<br/><br/>
+[Movies ETL Process](movies-etl) - Build automated data pipeline for movies data
+<br/><br/>
+<ins>Advanced Data Storage and Retrieval</ins>&nbsp;&nbsp; :hourglass_flowing_sand:<br/>
+[Surfs Up - ](hawaii-weather-analysis)Perform data analysis and data exploration on a weather dataset from the island of Oahu. Use SQLite, an easy-to-use local database and SQLAlchemy, a Python package to connect and query an SQLite database. Display analysis results in a Flask web framework.
+<br/><br/>
+
+
 
 
 
