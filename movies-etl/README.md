@@ -21,8 +21,9 @@ Two Python classes were developed for the Wikipedia and Kaggle movie source file
 - Wikipedia_Movie
 - Kaggle_Movie
 
-![](images/Movies-etl-class-diagram.png)
-
+![](images/Movies-etl-class-diagram.png)<br/>
+*Jupyter image source*: https://jupyter.org<br/>
+<br/>
 
 The `extract_transform_load` function in the Jupyter notebook calls methods in the **Wikipedia_Movie** and **Kaggle_Movie** classes. Using Python classes allows for a "separation of concerns" design so that code specific to each source file can be tested and maintained in isolation of the other source files. Also, this makes it easier to add new source files in the future as new classes to the ETL data pipeline.
 
