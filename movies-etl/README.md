@@ -1,7 +1,7 @@
 ## ETL (Extract, Transform and Load) Process
 
 ### Overview
-Refactor [movies-etl notebook](movies-etl.ipynb) for Module 8 exercises into an automated data pipeline.
+Refactor [movies-etl notebook](movies-etl.ipynb) from Module 8 exercises into an automated data pipeline.
 
 ![](images/film_strip.png)<br/>
 *Image source*: www.freepik.com
@@ -17,12 +17,14 @@ Refactor [movies-etl notebook](movies-etl.ipynb) for Module 8 exercises into an 
 
 ## Automate ETL Data Pipeline
 
-Three Python classes are created for each type of source file:
+Two Python classes were developed for the Wikipedia and Kaggle movie source files:
 - Wikipedia_Movie
-- Kaggle
-- Ratings
+- Kaggle_Movie
 
-The extract_transform_load function in the ETL_clean_wiki_movies notebook calls methods in each of these classes. Using Python classes allows for a "separation of concerns" design so that code specific to each source file can be tested and maintained in isolation of the other source files. Also, this makes it easier to add new source files in the future as new classes to the ETL data pipeline.
+![](images/Movies-etl-class-diagram.png)
+
+
+The `extract_transform_load` function in the Jupyter notebook calls methods in the **Wikipedia_Movie** and **Kaggle_Movie** classes. Using Python classes allows for a "separation of concerns" design so that code specific to each source file can be tested and maintained in isolation of the other source files. Also, this makes it easier to add new source files in the future as new classes to the ETL data pipeline.
 
 ### Deliverable 1
 [ETL_function_test](ETL_function_test.ipynb) - Reading movie source files into Pandas DataFrames
@@ -37,7 +39,8 @@ The extract_transform_load function in the ETL_clean_wiki_movies notebook calls 
 
 
 ### Deliverable 4
-Create the Movie Database
+[ETL_create_database](ETL_create_database.ipynb) - Load Movie and Ratings data to Postgres database
+
 
 
 

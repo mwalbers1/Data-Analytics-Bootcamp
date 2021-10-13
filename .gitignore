@@ -59,4 +59,7 @@ gmaps_practice.ipynb
 movies_metadata.csv
 ratings.csv
 
+# test python files
+etl-test.py
+
 
