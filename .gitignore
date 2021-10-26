@@ -54,6 +54,7 @@ config.py
 
 # practice files
 gmaps_practice.ipynb
+Section_*.ipynb
 
 # exclude large data files
 movies_metadata.csv

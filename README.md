@@ -32,4 +32,9 @@
 <ins>Mission to Mars</ins>&nbsp;&nbsp; :hourglass_flowing_sand:<br/>
 [Mission to Mars](mission-to-mars) - Use BeautifulSoup and Splinter web scraping Python packages to scrape all four hemispheres of planet Mars. Store web scraped data into a Mongo database and display the data in a web app.
 <br/><br/>
-
+<ins>UFO Sightings with JavaScript</ins>&nbsp;&nbsp; :hourglass_flowing_sand:<br/>
+Use JavaScript, CSS, and BootStrap for creating dynamic content
+<br/><br/>
+<ins>Plotly & Belly Button Biodiversity</ins>&nbsp;&nbsp; :hourglass_flowing_sand:<br/>
+Data visualization with JavaScript. Create dynamic Plotly chart<br/>
+<br/><br/>
