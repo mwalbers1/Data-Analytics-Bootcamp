@@ -12,16 +12,17 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="static/css/style.css" />
 </head>
 
-<body>
+<body class="bg-dark">
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">UFO Sightings</a>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <a href="index.html">UFO Sightings</a>
         </nav>
 
         <div class="jumbotron">
-            <h1>The Truth Is Out There</h1>
+            <h1 class="display-4">The Truth Is Out There</h1>
         </div>
 
         <div class="container-fluid">
@@ -43,15 +44,15 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-3">
-                        <form>
+                        <form class="bg-dark">
                             <p>Filter Search</p>
-                            <ul class="list-group">
-                                <li class="list-group-item">
+                            <ul class="bg-dark list-group">
+                                <li class="bg-dark list-group-item">
                                     <label for="date">Enter Date</label>
                                 </li>
-                                <li class="list-group-item">
+                                <li class="bg-dark list-group-item">
                                     <input type="text" placeholder="10/27/2021" id="datetime" />
-                                    <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                                    <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
                                 </li>
                             </ul>
                         </form>
