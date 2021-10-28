@@ -9,7 +9,7 @@ function buildTable(data) {
 
     // Loop through each object in the data
     // and append a row and cells for each value in the data row
-    data.array.forEach(dataRow => {
+    data.forEach(dataRow => {
         // Append a row to the table body
         let row = tbody.append("tr");
 
@@ -17,6 +17,7 @@ function buildTable(data) {
         Object.values(dataRow).forEach((val) => {
             let cell = row.append("td");
             cell.text(val);
+            console.log(val)
             }
         );
     });
