@@ -29,7 +29,7 @@
 <ins>Advanced Data Storage and Retrieval</ins>&nbsp;&nbsp; :white_check_mark:<br/>
 [Surfs Up - ](hawaii-weather-analysis)Perform data analysis and data exploration on a weather dataset from the island of Oahu. Use SQLite, an easy-to-use local database and SQLAlchemy, a Python package to connect and query an SQLite database. Display analysis results in a Flask web framework.
 <br/><br/>
-<ins>Mission to Mars</ins>&nbsp;&nbsp; :hourglass_flowing_sand:<br/>
+<ins>Mission to Mars</ins>&nbsp;&nbsp; :white_check_mark:<br/>
 [Mission to Mars](mission-to-mars) - Use BeautifulSoup and Splinter web scraping Python packages to scrape all four hemispheres of planet Mars. Store web scraped data into a Mongo database and display the data in a web app.
 <br/><br/>
 <ins>Dynamic Content with JavaScript</ins>&nbsp;&nbsp; :hourglass_flowing_sand:<br/>
