@@ -8,6 +8,8 @@ Provide in-depth analysis of UFO sightings by allowing users to filter for multi
 
 In the `Filter Search` section in left pane, enter one or more filters for viewing UFO sightings. After entering all of the filter criteria, click on the **Filter Table** button.
 
+![](resources/filter_search.png)
+
 ## Drawbacks
 
 The `Filter Search` input fields are allowing users to enter bad data without any validation. Also, because there is no validation on what users enter as filter criteria. This web site is at risk for a SQL injection attack as shown in illustration below.
