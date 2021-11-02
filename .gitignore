@@ -63,4 +63,7 @@ ratings.csv
 # test python files
 etl-test.py
 
+# test javascript files
+app_1.js
+
 
