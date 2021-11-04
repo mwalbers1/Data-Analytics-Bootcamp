@@ -55,6 +55,8 @@ config.py
 # practice files
 gmaps_practice.ipynb
 Section_*.ipynb
+js_module/
+index_*.html
 
 # exclude large data files
 movies_metadata.csv
@@ -66,4 +68,6 @@ etl-test.py
 # test javascript files
 app_1.js
 
+# vs code
+.vscode
 
