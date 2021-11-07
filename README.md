@@ -35,6 +35,6 @@
 <ins>Dynamic Content with JavaScript</ins>&nbsp;&nbsp; :white_check_mark:<br/>
 [UFO Sightings - ](ufos) Use JavaScript, CSS, and BootStrap for creating dynamic content for UFO sightings
 <br/><br/>
-<ins>Data Visualization with JavaScript</ins>&nbsp;&nbsp; :hourglass_flowing_sand:<br/>
-[Plotly & Belly Button Biodiversity - ](bacteria-analysis) Create dynamic Plotly charts<br/>
+<ins>Data Visualization with JavaScript</ins>&nbsp;&nbsp; :white_check_mark:<br/>
+[Plotly & Belly Button Biodiversity - ](bacteria-analysis) Create dynamic JavaScript Plotly Bar chart, and Gauge and Bubble charts<br/>
 <br/><br/>
