@@ -51,6 +51,7 @@ ENV/
 
 # config
 config.py
+config.js
 
 # practice files
 gmaps_practice.ipynb
