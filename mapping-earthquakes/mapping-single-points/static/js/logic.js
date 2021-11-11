@@ -2,7 +2,7 @@
 //console.log("working");
 
 // Create the map object with a center and zoom level.
-let map = L.map("mapid").setView([34.0522, -118.2437], 14);
+let map = L.map("mapid").setView([44.0522, -100.2437], 5);
 
  // We create the tile layer that will be the background of our map.
 // let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -22,8 +22,22 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tile
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(map);
 
-//  Add a marker to the map for Los Angeles, California.
-//let marker = L.marker([34.0522, -118.2437]).addTo(map);
+// An array containing each city's location, state, and population.
+cityData = cities;
+
+// add marker for each city onto map
+// cityData.forEach(city => L.marker(city.location)
+//   .bindPopup("<h1>" + city.city + "</h1> <hr> <h3>Population " + city.population + "</h3>")
+//   .addTo(map)
+// );
+
+// circle for each city onto map
+cityData.forEach(city => L.circleMarker(city.location, {
+  radius: (city.population - 200000) / 100000,
+  color: "orange",
+  weight: "4"
+}).addTo(map));
+
 
 // Add circle to the map
 // L.circle([34.0522, -118.2437], {
@@ -31,8 +45,8 @@ streets.addTo(map);
 // }).addTo(map);
 
 // Add a circle to the map with L.circleMaker
-L.circleMarker([34.0522, -118.2437], {
-  radius: 75,
-  color: "black",
-  fillColor: '#ffffa1'
-}).addTo(map);
+// L.circleMarker([34.0522, -118.2437], {
+//   radius: 75,
+//   color: "black",
+//   fillColor: '#ffffa1'
+// }).addTo(map);
