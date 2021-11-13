@@ -15,8 +15,8 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 
 // Create a base layer that holds both maps.
 let baseMaps = {
-  Light: light,
-  Dark: dark
+  Daytime: light,
+  Night: dark
 };
 
 // Create the map object with center, zoom level and default layer.
@@ -30,16 +30,21 @@ let map = L.map('mapid', {
 L.control.layers(baseMaps).addTo(map);
 
 // Accessing The airport GeoJSON URL
-let torontoData = "https://raw.githubusercontent.com/mwalbers1/Data-Analytics-Bootcamp/";
+let torontoData = "https://raw.githubusercontent.com/mwalbers1/Data-Analytics-Bootcamp/Mapping_GeoJSON_Linestrings/mapping-earthquakes/mapping-geoJSON-linestrings/static/json/torontoRoutes.json";
+
+// Create a style for the lines
+let myStyle = {
+  color: "#ffffa1",
+  weight: 2
+}
 
 // Get GeoJSON data
 d3.json(torontoData).then(function(data) {
-  console.log(data);
-  
   //Creating a GeoJSON layer with the retrieved data
   L.geoJson(data, {
+    style: myStyle,
     onEachFeature: function(features, layer) {
-      layer.bindPopup("<h2>Airport Code: " + features.properties.faa + "<hr>" + features.properties.name);
+      layer.bindPopup("<h2>Airline: " + features.properties.airline + "</h2> <hr><h3> " + "Destination: " + features.properties.dst + "</h3>");
     }
   }).addTo(map);
 });
