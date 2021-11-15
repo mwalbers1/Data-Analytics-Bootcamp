@@ -36,5 +36,8 @@
 [UFO Sightings - ](ufos) Use JavaScript, CSS, and BootStrap for creating dynamic content for UFO sightings
 <br/><br/>
 <ins>Data Visualization with JavaScript</ins>&nbsp;&nbsp; :white_check_mark:<br/>
-[Plotly & Belly Button Biodiversity - ](bacteria-analysis) Create dynamic JavaScript Plotly Bar chart, and Gauge and Bubble charts<br/>
+[Plotly & Belly Button Biodiversity - ](bacteria-analysis) Create dynamic JavaScript Plotly Bar chart, and Gauge and Bubble charts
+<br/><br/>
+<ins>Interactive Maps</ins>&nbsp;&nbsp; :white_check_mark:<br/>
+[Visualizing Earthquake Data - ](mapping-earthquakes/earthquake-challenge) Create data visualization maps of earthquake data using geoJSON data<br/>
 <br/><br/>

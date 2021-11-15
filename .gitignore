@@ -49,6 +49,9 @@ target/
 venv/
 ENV/
 
+# backup files
+*.bak
+
 # config
 config.py
 config.js
