@@ -39,5 +39,9 @@
 [Plotly & Belly Button Biodiversity - ](bacteria-analysis) Create dynamic JavaScript Plotly Bar chart, and Gauge and Bubble charts
 <br/><br/>
 <ins>Interactive Maps</ins>&nbsp;&nbsp; :white_check_mark:<br/>
-[Visualizing Earthquake Data - ](mapping-earthquakes/earthquake-challenge) Create data visualization maps of earthquake data using geoJSON data<br/>
+[Visualizing Earthquake Data - ](mapping-earthquakes/earthquake-challenge) Create data visualization maps of earthquake data using geoJSON data
 <br/><br/>
+<ins>Tableau Reporting</ins>&nbsp;&nbsp; :hourglass_flowing_sand:<br/>
+[Citi Bike Sharing Reports - ](bike-sharing) Create data visualizations and data stories on Citi Bike Sharing dataset using Tableau
+<br/><br/>
+
