@@ -34,7 +34,7 @@ pip-delete-this-directory.txt
 # PyBuilder
 target/
 
-# Jupyter Notebook
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
 # pyenv
@@ -61,10 +61,13 @@ gmaps_practice.ipynb
 Section_*.ipynb
 js_module/
 index_*.html
+Untitled.ipynb
 
 # exclude large data files
 movies_metadata.csv
 ratings.csv
+201908-citibike-tripdata.csv
+201908-citibike-tripdata_new.csv
 
 # test python files
 etl-test.py
