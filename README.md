@@ -44,4 +44,6 @@
 <ins>Tableau Reporting</ins>&nbsp;&nbsp; :white_check_mark:<br/>
 [Citi Bike Sharing Reports - ](bike-sharing) Create data visualizations and data stories on Citi Bike Sharing dataset using Tableau
 <br/><br/>
-
+<ins>R + Statistics</ins>&nbsp;&nbsp; :hourglass_flowing_sand:<br/>
+[Statistical analysis of automobile industry](car-statistical-analysis)
+<br/><br/>
