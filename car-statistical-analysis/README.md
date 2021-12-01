@@ -54,3 +54,28 @@ The y-intercept is statistically significant meaning it explains a significant a
 
 The coefficients for vehicle_length and ground_clearance are statistically significant as they have p-values below the 0.05 threshold. The other coefficients for vehicle_weight, spoiler_angle, and AWD are not statistically significant in that their p-values are higher than 0.05.
 
+## Summary Statistics on Suspension Coils
+
+<ins>Run from Terminal:</ins>
+
+```bash
+$ RScript MechaCarChallenge.RScript
+```
+<ins>Output:</ins>
+
+```bash
+Mean Median Variance       SD
+1 1498.78   1500 62.29356 7.892627
+# A tibble: 3 x 5
+# Groups:   Manufacturing_Lot [3]
+  Manufacturing_Lot  Mean Median Variance     SD
+  <chr>             <dbl>  <dbl>    <dbl>  <dbl>
+1 Lot1              1500   1500     0.980  0.990
+2 Lot2              1500.  1500     7.47   2.73
+3 Lot3              1496.  1498.  170.    13.0
+```
+
+Lot 3 has a variance of 170 which exceeds the variance threshold of 100. So therefore, the current manufacturing data does not meet the variance specification in which the suspension coils must not exceed 100.
+
+
+

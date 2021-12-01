@@ -1,7 +1,17 @@
 library(dplyr)
 
+# deliverable 1
 mechaCar <- read.csv(file="dataset/MechaCar_mpg.csv")
 
 reg <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mechaCar)
-
 summary(reg)
+
+# deliverable 2
+suspensionCoil <- read.csv(file="dataset/Suspension_Coil.csv")
+
+total_summary = suspensionCoil %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
+total_summary
+
+lot_summary <- suspensionCoil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = 'keep')
+lot_summary
+
