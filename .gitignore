@@ -78,3 +78,9 @@ app_1.js
 # vs code
 .vscode
 
+# R files
+*.Rproj
+*.RData
+*.Rhistory
+*.Rproj.user
+
