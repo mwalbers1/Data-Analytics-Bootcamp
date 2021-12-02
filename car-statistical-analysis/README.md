@@ -94,6 +94,8 @@ mean of x
 1498.78
 ```
 
+Based on the one sample t-test results above, we can conclude that the sample mean for the overall lots has a difference from the population mean due to randomness. The p-value of 0.06 means that we have to accept the null hypothesis that any differences between the sample mean and the population is due to randomness. The difference between the sample and population mean for PSI is not statistically significant.
+
 <ins>One Sample t-test on PSI for each lot for mu=1500</ins>
 
 ```bash
@@ -130,3 +132,6 @@ sample estimates:
 mean of x
   1496.14
 ```
+
+The t-test for lot 3 indicates the difference between the sample and population mean is statistically significant and not due to randomness. This conclusion can be made because the p-value is less than 0.05.  The t-tests for lots 1 and 2 have p-values above 0.05 meaning that the null hypothesis is accepted. The differences in sample versus population means is due to randomness.
+
