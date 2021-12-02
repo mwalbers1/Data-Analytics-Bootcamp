@@ -48,11 +48,12 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 ```
 
 The r-squared value for the multiple linear regression model is 0.71 (71 %) which means that this model explains a significant amount of variability in the dependent variable, 71 % of the variability can be explained by the model.
+
 We can conclude that the slope of this linear model does not equal zero because its r-squared value of 0.71 shows a moderate correlation between the linear model and the dependent variable MPG.
 
 The y-intercept is statistically significant meaning it explains a significant amount of variability in MPG when all independent variables are zero.
 
-The coefficients for vehicle_length and ground_clearance are statistically significant as they have p-values below the 0.05 threshold. The other coefficients for vehicle_weight, spoiler_angle, and AWD are not statistically significant in that their p-values are higher than 0.05.
+The coefficients for `vehicle_length` and `ground_clearance` are statistically significant as they have p-values below the 0.05 threshold. The other coefficients for vehicle_weight, spoiler_angle, and AWD are not statistically significant in that their p-values are higher than 0.05.
 
 ## Summary Statistics on Suspension Coils
 
@@ -74,6 +75,8 @@ Mean Median Variance       SD
 2 Lot2              1500.  1500     7.47   2.73
 3 Lot3              1496.  1498.  170.    13.0
 ```
+
+The overall variance (across all lots) of 62.29 is below the threshold of 100. However, the variance reported among the individual lots shows that Lot 3 has a lot of variability.
 
 Lot 3 has a variance of 170 which exceeds the variance threshold of 100. So therefore, the current manufacturing data does not meet the variance specification in which the suspension coils must not exceed 100.
 
@@ -134,4 +137,22 @@ mean of x
 ```
 
 The t-test for lot 3 indicates the difference between the sample and population mean is statistically significant and not due to randomness. This conclusion can be made because the p-value is less than 0.05.  The t-tests for lots 1 and 2 have p-values above 0.05 meaning that the null hypothesis is accepted. The differences in sample versus population means is due to randomness.
+
+## Study Design: MechaCar vs Competition
+
+The purpose of the experiment is to determine whether highway MPG is related to the price of a car among car make/models.
+
+**Null Hypothesis** - The highway MPG is not related to the price of the car among different car models.
+
+**Alternative Hypothesis** - The highway MPG of car models will determine the price of cars among different models.
+
+1. Perform ANOVA test to determine if there are differences between the price and highway miles per gallon (MPG) among different car models
+
+2. Create Boxplot to show the distribution of MPG for each car manufacturer
+
+| Variable    | Values                                          |
+|:------------|:------------------------------------------------|
+| Price Range | $30,000 to $90,000                              |
+| MPG         | Highway Miles Per Gallon (MPG)                  |
+| Car Model   | Volkswagon, Acura, Lincoln, Audi, Buick, Honda  |
 
