@@ -1,12 +1,14 @@
 library(dplyr)
 
 # deliverable 1
+print("deliverable 1")
 mechaCar <- read.csv(file="dataset/MechaCar_mpg.csv")
 
 reg <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mechaCar)
 summary(reg)
 
 # deliverable 2
+print("deliverable 2")
 suspensionCoil <- read.csv(file="dataset/Suspension_Coil.csv")
 
 total_summary = suspensionCoil %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
@@ -15,3 +17,20 @@ total_summary
 lot_summary <- suspensionCoil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups = 'keep')
 lot_summary
 
+# deliverable 3
+print("deliverable 3")
+
+t.test(suspensionCoil$PSI, mu = 1500)
+
+# subset - mfg lot 1
+l1 <- subset(suspensionCoil, Manufacturing_Lot == 'Lot1')
+
+# subset - mfg lot 2
+l2 <- subset(suspensionCoil, Manufacturing_Lot == 'Lot2')
+
+# subset - mfg lot 3
+l3 <- subset(suspensionCoil, Manufacturing_Lot == 'Lot3')
+
+t.test(l1$PSI, mu = 1500)
+t.test(l2$PSI, mu = 1500)
+t.test(l3$PSI, mu = 1500)

@@ -9,7 +9,7 @@ Review manufacturing data on a new prototype vehicle called the `MechaCar` for A
 
 - Run t-tests to determine if the manufacturing lots are statistically different from the mean population
 
-- Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
+- Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
 
 - For each statistical analysis, write a summary interpretation of the findings.
 
@@ -77,5 +77,56 @@ Mean Median Variance       SD
 
 Lot 3 has a variance of 170 which exceeds the variance threshold of 100. So therefore, the current manufacturing data does not meet the variance specification in which the suspension coils must not exceed 100.
 
+## T-Tests on Suspension Coils
 
+<ins>One Sample t-test on PSI across all lots for mu=1500</ins>
 
+```bash
+One Sample t-test
+
+data:  suspensionCoil$PSI
+t = -1.8931, df = 149, p-value = 0.06028
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+1497.507 1500.053
+sample estimates:
+mean of x
+1498.78
+```
+
+<ins>One Sample t-test on PSI for each lot for mu=1500</ins>
+
+```bash
+        One Sample t-test Lot 1
+
+data:  l1$PSI
+t = 0, df = 49, p-value = 1
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1499.719 1500.281
+sample estimates:
+mean of x
+     1500
+
+        One Sample t-test Lot 2
+
+data:  l2$PSI
+t = 0.51745, df = 49, p-value = 0.6072
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1499.423 1500.977
+sample estimates:
+mean of x
+   1500.2
+
+        One Sample t-test Lot 3
+
+data:  l3$PSI
+t = -2.0916, df = 49, p-value = 0.04168
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1492.431 1499.849
+sample estimates:
+mean of x
+  1496.14
+```
