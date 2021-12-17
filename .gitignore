@@ -63,11 +63,15 @@ js_module/
 index_*.html
 Untitled.ipynb
 
+# starter code
+*_starter_code*.ipynb
+
 # exclude large data files
 movies_metadata.csv
 ratings.csv
 201908-citibike-tripdata.csv
 201908-citibike-tripdata_new.csv
+LoanStats_2019Q1.csv
 
 # test python files
 etl-test.py
