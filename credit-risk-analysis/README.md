@@ -1,7 +1,7 @@
 ## Supervised Machine Learning Project
 
 ### Purpose of Analysis
-The credit card dataset from LendingClub, a peer-to-peer lending services company is unbalanced. There are far more low-risk than high-risk observations in the dataset. This analysis will use different resampling techniques and classification models to predict credit risk. Evaluate each model's balanced accuracy, precision and recall scores.
+The credit card dataset from LendingClub, a peer-to-peer lending services company is unbalanced. There are far more low-risk than high-risk observations in the dataset. This analysis will use different resampling techniques and classification models to predict credit risk. Evaluate each model's balanced accuracy score and their imbalanced precision and recall scores.
 
 ### Credit Risk Prediction Results
 
@@ -13,7 +13,6 @@ The credit card dataset from LendingClub, a peer-to-peer lending services compan
 **Jupyter notebooks:** [credit_risk_resampling](credit_risk_resampling.ipynb), [credit_risk_ensemble](credit_risk_ensemble.ipynb)
 
 
-+----------------+------------------+
 | Classifier                | Accuracy Score | Precision Score | Recall Score |
 |---------------------------|----------------|-----------------|--------------|
 | **Naive Random Oversampling** |           0.66 |      0.99       |  0.60        |
