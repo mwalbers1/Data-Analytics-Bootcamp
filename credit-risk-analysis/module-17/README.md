@@ -19,7 +19,3 @@
 - Bagging and Boosting
 
 - Techniques to Resolve Class Imbalance
-
-### Jupyter notebooks
-
-
