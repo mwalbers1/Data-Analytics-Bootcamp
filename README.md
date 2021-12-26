@@ -47,3 +47,13 @@
 <ins>R + Statistics</ins>&nbsp;&nbsp; :white_check_mark:<br/>
 [Statistical analysis of automobile industry - ](car-statistical-analysis) Conduct statistical analysis on car metrics including Linear regression, Summary statistics, and T-tests
 <br/><br/>
+<ins>Big Data Project</ins>&nbsp;&nbsp; :white_check_mark:<br/>
+[Big Data Project - ](amazon-vine-analysis) Build ETL process using PySpark to extract Amazon reviews dataset, transform the data, and load into AWS cloud database
+<br/><br/>
+<ins>Supervised Machine Learning Project</ins>&nbsp;&nbsp; :white_check_mark:<br/>
+[Credit Risk Analysis - ](credit-risk-analysis) Create supervised ML models for LendingClub credit card dataset and evaluate results of each model
+<br/><br/>
+<ins>Unsupervised Machine Learning Project</ins>&nbsp;&nbsp; :white_check_mark:<br/>
+[Cluster Analysis of Cryptocurrencies - ](crypto-currencies) Create classification system for a new Cryptocurrency portfolio using K-Means clustering algorithm
+<br/><br/>
+
