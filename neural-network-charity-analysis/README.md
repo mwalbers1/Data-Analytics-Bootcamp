@@ -90,7 +90,7 @@ The initial model was created with one input layer, two hidden layers and one ou
 - The sigmoid activation function was used in the final layer since we are building a binary classifier
 
 #### First Optimization
-The first optimization was to remove outliers in the input dataset. The model configuration remained the same as the initial model.  The model was trained on 50 epochs. The accuracy of the model remained unchanged at 73%.
+The first optimization was to remove outliers in the input dataset. The model configuration remained the same as the initial model.  The model was trained on 50 epochs. The accuracy of the model remained unchanged at 72%.
 
 | Layer            | Neurons | Activation Function |
 |------------------|---------|---------------------|
