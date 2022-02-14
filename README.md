@@ -56,4 +56,7 @@
 <ins>Unsupervised Machine Learning Project</ins>&nbsp;&nbsp; :white_check_mark:<br/>
 [Cluster Analysis of Cryptocurrencies - ](crypto-currencies) Create classification system for a new Cryptocurrency portfolio using K-Means clustering algorithm
 <br/><br/>
+<ins>Neural Networks</ins>&nbsp;&nbsp; :white_check_mark:<br/>
+[Neural Networks - ](https://github.com/mwalbers1/Data-Analytics-Bootcamp/tree/main/neural-network-charity-analysis) Implement a binary classifier neural network to make success or failure predictions on a funding dataset
+<br/><br/>
 
