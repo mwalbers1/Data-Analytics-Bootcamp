@@ -1,6 +1,8 @@
-# Data-Analytics-Bootcamp
-**UC Berkeley Extension Data Analytics Bootcamp repository**<br/>
-[Berkeley Online Data Analytics Bootcamp](https://bootcamp.berkeley.edu/data/)
+# Data Analytics Bootcamp
+![](University%20of%20California%20Berkeley%20favicon_med.jpg)
+<br/>
+<br/>
+[University of California Berkeley Extension](https://bootcamp.berkeley.edu/data/)
 
 ## Projects<br/>
 <ins>Capstone Project</ins>&nbsp;&nbsp;<br/>
