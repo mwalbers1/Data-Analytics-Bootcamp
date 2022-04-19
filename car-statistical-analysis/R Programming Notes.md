@@ -14,6 +14,10 @@
 
 <a href="https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf" target="_blank">R-intro.pdf</a>
 
+<a href="https://plotly.com/r/" target="_blank">Plotly R Open Source Graphics Library</a>
+
+<a href="https://cran.r-project.org/web/packages/prophet/index.html" target="_blank">Prophet: Automatic Forecasting Procedure</a>
+
 
 
 
