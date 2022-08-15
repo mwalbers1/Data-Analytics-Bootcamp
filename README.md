@@ -1,5 +1,5 @@
 # Data Analytics Bootcamp
-![](University%20of%20California%20Berkeley%20favicon_med.jpg)
+![](totals%20and%20subtotals.png)
 <br/>
 <br/>
 [University of California Berkeley Extension](https://bootcamp.berkeley.edu/data/)
